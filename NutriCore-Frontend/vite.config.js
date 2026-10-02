@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 5177,
     proxy: {
-      '/api': 'https://nutricore-backend.onrender.com', // forwards API calls to backend
+      '/api': 'https://nutricore-ksgz.onrender.com', // forwards API calls to backend
     }
   }
 })
